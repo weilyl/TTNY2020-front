@@ -1,3 +1,18 @@
+# Inspiration
+
+## Charty Party
+[Charty Party](https://www.chartypartygame.com/)
+[Buy the card game](https://www.amazon.com/Charty-Party-Absurdly-Charts-Visualization/dp/B07QVB2VGQ)
+
+## One Word
+[One Word](https://oneword.games)
+[Buy the board game](https://www.amazon.com/Repos-JOUS01-Just-One-dp-B07W3PJTL2/dp/B07W3PJTL2/ref=as_li_ss_tl?ie=UTF8&linkCode=sl1&tag=austin044-20&linkId=a90ba88ef69ba70c3621240e52c3f6b3&language=en_US)
+
+## Joking (Joking Hazard clone)
+Play [here](https://kirk.is/joking/)
+[Buy the official game](https://explosm.net/joking-hazard)
+[Github](https://github.com/kirkjerk/joking-at-a-distance)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
