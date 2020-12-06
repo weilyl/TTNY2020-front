@@ -2,7 +2,7 @@ import React from 'react';
 import Welcome from './screens/Welcome';
 import InGame from './screens/InGame';
 import Firebase from "firebase";
-import config from './services/config';
+import config from './services/firebase/config';
 import {
   BrowserRouter,
   Link,
