@@ -4,6 +4,7 @@ import Header from '../components/Header';
 import JoinRoom from '../components/JoinRoom';
 import Ycard from '../components/Ycard';
 import Xcard from '../components/Xcard';
+import SomeComponent from '../components/test'
 
 
 class Welcome extends React.Component {
@@ -36,6 +37,7 @@ class Welcome extends React.Component {
         }
         */
       }
+     
 
       render() {
 
@@ -46,10 +48,9 @@ class Welcome extends React.Component {
         return(
             <>
                 <Header></Header>
-
                 <CreateGame/>
                 <JoinRoom/>
-                
+                <SomeComponent onClick={() => this.signin()}/>
                 <Ycard />
                 <Xcard/>
             </>

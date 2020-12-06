@@ -36,3 +36,42 @@
     transform: rotate(360deg);
   }
 }
+.judge-image{
+  width: 210px;
+  height: 210px;
+  margin-right: 800px;
+  margin-top: 15px;
+}
+.judge{
+  margin-top: 300px;
+  margin-left: -800px;
+}
+.person{
+  width: 200px;
+  height: 200px;
+  margin-left: 400px;
+  margin-top: -1px;
+}
+.button-start{
+  margin-left: -550px;
+  margin-top: -150px;
+}
+.player{
+  margin-top: -250px;
+  margin-left: 880px;
+}
+.create-line{
+  font-size: 40px ;
+  margin-left: -650px;
+  margin-top: 100px;
+}
+.room-line{
+  font-size: 30px ;
+  margin-left: -950px;
+  margin-top: 60px;
+}
+.name-line{
+  font-size: 30px ; 
+  margin-left: -950px;
+  margin-top: 40px;
+} 
