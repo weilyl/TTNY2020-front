@@ -11,6 +11,10 @@ class YAxis extends React.Component {
 
         return(
             <svg width="20" height="250" /*style = { axisStyle }*/>
+                    <line x1="10" y1="25" x2="20" y2="15" stroke="black" stroke-width="2"></line>
+
+                    <line x1="0" y1="15" x2="10" y2="25" stroke="black" stroke-width="2"></line>
+
                     <line x1="10" y1="25" x2="10" y2="200" stroke="black" stroke-width="2"></line>
                     <line x1="0" y1="50" x2="20" y2="50" stroke="black" stroke-width="2"></line>
 
