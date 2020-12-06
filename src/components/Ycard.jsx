@@ -1,5 +1,5 @@
 import React from 'react';
-import { Yaxis as yAxis } from './Yaxis';
+import YAxis from './Yaxis';
 
 import Card from 'react-bootstrap/Card';
 
@@ -11,15 +11,20 @@ class Ycard extends React.Component {
             display: "flex",
             flexDirection: "row",
             justifyContent: "flexEnd",
-            width: "18Rem"
+            width: "18Rem",
+            alignItems: "center"
         };
+
+        // const titleStyle = {
+        //     alignSelf: "center"
+        // }
 
         return(
             <Card style = { yStyle }>
-                <Card.body>
-                    <Card.Title/>
-                    <yAxis/>
-                </Card.body>
+                <Card.Body /*style = {titleStyle}*/> 
+                    <Card.Title >Y-axis title</Card.Title>
+                </Card.Body>
+                <YAxis /*style = {titleStyle}*/> </YAxis>
             </Card>
         )
     }
