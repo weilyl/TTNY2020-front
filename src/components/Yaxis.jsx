@@ -3,11 +3,15 @@ import React from 'react';
 class Yaxis extends React.Component {
 
     render () {
+
+        const yStyle = {
+            marginRight: "0",
+            padding: "10"
+        };
+
         return(
-            <svg /*viewBox="100 100 0 0"*/ width='50' height='250'>
-                {/*<g color="green">*/}
-                    <line x1="20" y1="20" x2="20" y2="200"></line>
-                {/*</g>*/}
+            <svg width="15" height="250">
+                    <line x1="20" y1="20" x2="20" y2="200" stroke="black" stroke-width="2"></line>
             </svg>
 
 
@@ -24,3 +28,5 @@ class Yaxis extends React.Component {
         )
     }
 }
+
+export default Yaxis;

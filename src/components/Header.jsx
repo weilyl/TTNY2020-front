@@ -14,11 +14,11 @@ class Header extends React.Component {
         return(
 <>
   <Navbar bg="light" variant="light">
-    <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+    <Navbar.Brand href="#home">Laughs at Graphs</Navbar.Brand>
     <Nav className="ml-auto">
-      <Nav.Link href="#home">Buy the card game</Nav.Link>
-      <Nav.Link href="#features">Github</Nav.Link>
-      <Nav.Link href="#pricing">Team</Nav.Link>
+      <Nav.Link href="https://www.amazon.com/Charty-Party-Absurdly-Charts-Visualization/dp/B07QVB2VGQ">Buy the card game</Nav.Link>
+      <Nav.Link href="https://github.com/">Github</Nav.Link>
+      <Nav.Link href="#us">Team</Nav.Link>
     </Nav>
 
   </Navbar>
