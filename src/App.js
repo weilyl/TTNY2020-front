@@ -15,6 +15,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import './App.scss';
 import JoiningARoom from './screens/JoiningARoom';
+import JoinRoom from './components/JoinRoom';
 
 
 class App extends React.Component {
@@ -78,6 +79,7 @@ class App extends React.Component {
           <Route path="/room" >
             <CreateRoom />
           </Route>
+
           <Route path="/joiningroom" >
             <JoiningARoom />
           </Route>

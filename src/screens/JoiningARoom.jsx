@@ -9,7 +9,6 @@ import {
   } from "react-router-dom";
   import {FormControl, InputGroup, Button, Col} from 'react-bootstrap';
 
-
 class JoiningARoom extends React.Component {
     render() {
         return(
