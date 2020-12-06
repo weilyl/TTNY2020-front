@@ -1,6 +1,7 @@
 import React from 'react';
 import CreateGame from '../components/CreateGame';
 import Header from '../components/Header';
+import JoinRoom from '../components/JoinRoom';
 
 
 class Welcome extends React.Component {
@@ -44,6 +45,7 @@ class Welcome extends React.Component {
             <>
                 <Header></Header>
                 <CreateGame></CreateGame>
+                <JoinRoom></JoinRoom>
             </>
         )
       }

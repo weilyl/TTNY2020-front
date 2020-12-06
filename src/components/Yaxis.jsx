@@ -4,11 +4,9 @@ class Yaxis extends React.Component {
 
     render () {
         return(
-            <svg {/*viewBox="100 100 0 0"*/} width='50' height='250'>
+            <svg /*viewBox="100 100 0 0"*/ width='50' height='250'>
                 {/*<g color="green">*/}
-                    <line x1="20" y1="20" x2="20" y2="130"></line>
-                    {/* <rect width="50" height="50" fill="currentcolor" />
-                    <circle r="25" cx="70" cy="70" stroke="currentcolor" fill="none" stroke-width="5" />   */}
+                    <line x1="20" y1="20" x2="20" y2="200"></line>
                 {/*</g>*/}
             </svg>
 

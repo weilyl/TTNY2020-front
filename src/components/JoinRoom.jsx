@@ -8,3 +8,5 @@ class JoinRoom extends React.Component {
         )
     }
 }
+
+export default JoinRoom;
