@@ -16,7 +16,7 @@ class CreateRoom extends React.Component {
         return(
             <>
             <div className="create-line"> Create a Game</div> 
-            <div className="room-line"> Room : 
+            <div className="room-line"> Room : 45789
                 <InputGroup size="sm" className="mb-3">
                 <Col xs={2}>
                 <FormControl
@@ -27,7 +27,7 @@ class CreateRoom extends React.Component {
                 </Col>
                 </InputGroup>
             </div>
-            <div className="name-line"> Name: 
+            <div className="name-line"> Name: Butterfly
                 <InputGroup size="sm" className="mb-3">
                 <Col xs={3}>
                 <FormControl
