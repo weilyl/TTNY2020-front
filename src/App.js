@@ -1,14 +1,16 @@
 import React from 'react';
 import Welcome from './screens/Welcome';
+import InGame from './screens/InGame';
 import Firebase from "firebase";
 import config from './services/config';
+import {
+  BrowserRouter,
+  Link,
+  Route,
+  Switch
+} from 'react-router-dom';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-
-// import Welcome from './screens/Welcome';
-// import InGame from './screens/InGame';
-
-// import logo from './logo.svg';
 import './App.css';
 import './App.scss';
 
@@ -66,22 +68,20 @@ class App extends React.Component {
 
     return(
     <div className="App">
-      <Welcome></Welcome>
+      <BrowserRouter>
+        <Switch>
+          
+          <Route path='/game'>
+            <InGame />
+          </Route>
+          
+          <Route path='/'>
+            <Welcome />
+          </Route>
 
-      {/* <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header--> */}
+        </Switch>
+      </BrowserRouter>
+  
     </div>
     )};
 }

@@ -1,5 +1,5 @@
 import React from 'react';
-import Button from 'react-bootstrap/Button';
+import PlayerHand from './../components/PlayerHand';
 
 class Welcome extends React.Component {
     constructor(props) {
@@ -19,6 +19,7 @@ class Welcome extends React.Component {
 
     handleSubmit = async event => {
         event.preventDefault();
+        /*
         const resp = await login(this.state);
         if (!resp) {
             this.setState({
@@ -28,6 +29,7 @@ class Welcome extends React.Component {
             await this.props.setUser({token: resp.token});
             this.props.history.push(`/account`);
         }
+        */
       }
 
       render() {
@@ -37,7 +39,7 @@ class Welcome extends React.Component {
         }
 
         return(
-            <Button></Button>
+            <PlayerHand />
         )
       }
 

@@ -1,18 +1,20 @@
 import React from 'react';
-import YAxis from './Yaxis';
+import XAxis from './Xaxis';
 
 import Card from 'react-bootstrap/Card';
 
-class Ycard extends React.Component {
+class Xcard extends React.Component {
 
     render() {
 
-        const yStyle = {
+        const xStyle = {
             display: "flex",
-            flexDirection: "row",
+            flexDirection: "column",
             justifyContent: "flexEnd",
             width: "18Rem",
             alignItems: "center"
+            
+            
         };
 
         // const titleStyle = {
@@ -20,11 +22,11 @@ class Ycard extends React.Component {
         // }
 
         return(
-            <Card style = { yStyle }>
+            <Card style = { xStyle }>
+                <XAxis /*style = {titleStyle}*/> </XAxis>
                 <Card.Body /*style = {titleStyle}*/> 
-                    <Card.Title >Y-axis title</Card.Title>
+                    <Card.Title >X-axis title</Card.Title>
                 </Card.Body>
-                <YAxis /*style = {titleStyle}*/> </YAxis>
             </Card>
         )
     }
@@ -34,4 +36,4 @@ class Ycard extends React.Component {
 // https://react-bootstrap.github.io/components/forms/
 // readOnly and plaintext
 
-export default Ycard;
+export default Xcard;
