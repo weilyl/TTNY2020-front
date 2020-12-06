@@ -3,6 +3,7 @@ import CreateGame from '../components/CreateGame';
 import Header from '../components/Header';
 import JoinRoom from '../components/JoinRoom';
 import Ycard from '../components/Ycard';
+import Xcard from '../components/Xcard';
 
 
 class Welcome extends React.Component {
@@ -50,6 +51,7 @@ class Welcome extends React.Component {
                 <JoinRoom/>
                 
                 <Ycard />
+                <Xcard/>
             </>
         )
       }
