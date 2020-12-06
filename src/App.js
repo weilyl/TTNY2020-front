@@ -70,6 +70,7 @@ class App extends React.Component {
     <div className="App">
       <BrowserRouter>
         <Switch>
+          
           <Route path='/game'>
             <InGame />
           </Route>
