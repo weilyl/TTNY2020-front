@@ -3,11 +3,8 @@ import CreateGame from '../components/CreateGame';
 import Header from '../components/Header';
 import JoinRoom from '../components/JoinRoom';
 import Ycard from '../components/Ycard';
-<<<<<<< HEAD
 import Xcard from '../components/Xcard';
-=======
 import SomeComponent from '../components/test'
->>>>>>> ad75e211e8d37f39f11aa8a9589b9621d2b48dc4
 
 
 class Welcome extends React.Component {
