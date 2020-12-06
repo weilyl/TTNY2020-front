@@ -3,7 +3,7 @@ import Welcome from './screens/Welcome';
 import InGame from './screens/InGame';
 import CreateRoom from './screens/CreateRoom';
 import Firebase from "firebase";
-import config from './services/config';
+import config from './services/firebase/config';
 import {
   BrowserRouter,
   Link,

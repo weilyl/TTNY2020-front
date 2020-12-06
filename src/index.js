@@ -3,13 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { BrowserRouter as Router } from 'react-router-dom'
+import Firebase, { FirebaseContext } from './services/firebase';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Router>
+    <FirebaseContext.Provider value={new Firebase()}>
     <App />
-    </Router>
+    </FirebaseContext.Provider>
   </React.StrictMode>,
   document.getElementById('root')
 );
