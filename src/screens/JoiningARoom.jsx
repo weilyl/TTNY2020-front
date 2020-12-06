@@ -13,11 +13,11 @@ class JoiningARoom extends React.Component {
     render() {
         return(
             <>
-            <div> You are logged in as: 
+            <div className="loggedin"> You are logged in as: 
                 <InputGroup size="sm" className="mb-3">
                 <Col xs={4}>
                 <FormControl
-                placeholder="Username"
+                placeholder="Butterfly"
                 aria-label="Recipient's username"
                 aria-describedby="basic-addon2"
                 />
@@ -29,7 +29,7 @@ class JoiningARoom extends React.Component {
                     <InputGroup size="sm" className="mb-3">
                     <Col xs={2}>
                     <FormControl
-                    placeholder="#Users"
+                    placeholder="5"
                     aria-label="Recipient's username"
                     aria-describedby="basic-addon2"
                     />
@@ -39,7 +39,7 @@ class JoiningARoom extends React.Component {
                 <InputGroup size="sm" className="mb-3">
                 <Col xs={2}>
                 <FormControl
-                placeholder="Room Number"
+                placeholder="45789"
                 aria-label="Recipient's username"
                 aria-describedby="basic-addon2"
                 />
